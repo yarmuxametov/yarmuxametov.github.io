@@ -1,7 +1,0 @@
-cd Desktop
-
-cd MyFirstProject
-
-cd src
-
-browser-sync start --server --files "*.html"
