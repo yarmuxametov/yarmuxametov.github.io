@@ -1,2 +1,2 @@
 # yarmuxametov.github.io
-Мой первый опубликованный сайт yarmuxametov.github.io [Мой сайт](yarmuxametov.github.io/github/site_1/ "Приемущества")
+Мой первый опубликованный сайт [Мой сайт](yarmuxametov.github.io/github/site_1/ "Преимущества")
