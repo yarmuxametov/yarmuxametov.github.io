@@ -1,2 +1,2 @@
-# yarmuxametov.github.io
+# Ярмухаметов Артур
 Мой первый опубликованный сайт [Мой сайт](yarmuxametov.github.io/github/site_1/ "Преимущества")
