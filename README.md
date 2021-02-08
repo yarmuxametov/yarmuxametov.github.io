@@ -6,4 +6,4 @@
 
 Мой первый опубликованный сайт [Мой сайт](yarmuxametov.github.io/github/site_1/ "Преимущества")
 
-Пиксельная верстка [Perfect Pixel](yarmuxametov.github.io/perfect_pixel/ "PP")
+Пиксельная верстка [Perfect Pixel](yarmuxametov.github.io/perfect_pixel/ "Пиксельная верстка")
