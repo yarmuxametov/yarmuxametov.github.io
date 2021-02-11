@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Fonts settings */
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype"), url("../fonts/ProximaNova-Bold.svg#ProximaNova-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url("../fonts/ProximaNovaCond-Regular.eot");
+  src: url("../fonts/ProximaNovaCond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNovaCond-Regular.woff2") format("woff2"), url("../fonts/ProximaNovaCond-Regular.woff") format("woff"), url("../fonts/ProximaNovaCond-Regular.ttf") format("truetype"), url("../fonts/ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+/* Colors */
+@btn-color : #fdb303;
+@icon-color : #49bf15;
+@bg-color : #f5f5f5;
+@text : #292929;
+@danger : #ff0000;
+@border-input : #dddddd;
+/* Basic settings */
+body {
+  font-family: 'ProximaNova_reg'; }
+
+html {
+  font-style: 10px; }
+
+.button {
+  font-size: 1.2rem;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+  text-transform: uppercase;
+  border: none;
+  background-color: #fdb303;
+  color: white; }
+
+/* Typography */
+section {
+  padding: 10rem 0; }
+
+/* main */
+.main {
+  padding: 2rem  5rem;
+  background-image: url(../img/font1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'ProximaNova_bold';
+  /* Подзаголовок */
+  /* Стоимость (зеленый ярлык) */
+  /* Оплата по факту */
+  /* Форма */
+  /* Подпись под формой со * */ }
+  .main .main-content {
+    margin-top: 10rem;
+    /* Главный заголовок */ }
+    .main .main-content h1 {
+      line-height: 6rem;
+      font-family: 'ProximaNova_bold';
+      font-size: 4rem;
+      text-transform: uppercase; }
+  .main .main-subtitle {
+    margin-top: 5.8rem;
+    font-size: 2.4rem; }
+  .main span {
+    text-align: center;
+    margin-top: 3.5rem;
+    display: inline-block;
+    padding: 2.5rem 5.5rem;
+    background-color: #49bf15;
+    color: white; }
+    .main span strong {
+      font-size: 3rem; }
+  .main .main-fact {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 2.5rem; }
+  .main .main-form {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 5rem 5rem;
+    background-color: white;
+    /* Поле для ввода */
+    /* Подписис к полям */
+    /* Кнопка формы */
+    /* Подпись под кнопкой */ }
+    .main .main-form .form-header {
+      font-size: 2rem;
+      font-family: 'ProximaNova_reg';
+      margin-bottom: 4rem; }
+    .main .main-form input {
+      margin: 2rem 0;
+      display: block;
+      border: 1px solid #dddddd;
+      width: 100%;
+      height: 5rem;
+      padding: 1.5rem;
+      border-radius: 8px; }
+    .main .main-form label {
+      position: absolute;
+      display: inline-block;
+      left: 50%;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+              transform: translateX(-50%) translateY(-50%);
+      padding: 0.5rem;
+      font-size: 1.3rem;
+      background-color: white; }
+    .main .main-form .form-btn {
+      display: block;
+      width: 100%;
+      height: 6.5rem;
+      font-size: 1.5rem; }
+    .main .main-form small {
+      display: block;
+      margin-top: 1.5rem; }
+  .main .star-text {
+    margin-left: 3rem;
+    margin-top: 3.8rem;
+    display: inline-block;
+    text-align: center; }
+
+.header {
+  height: 7rem; }
+
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold';
+  font-weight: 900;
+  font-size: 2rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #292929; }
+
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem; }
+  .wrap .wrap-block {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */
