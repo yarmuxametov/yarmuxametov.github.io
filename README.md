@@ -9,3 +9,5 @@
 Пиксельная верстка [Perfect Pixel](yarmuxametov.github.io/perfect_pixel/ "Пиксельная  верстка")
 
 Верстка шапки [Header](yarmuxametov.github.io/src/ "Верстка шапки ")
+
+Верстка главной страницы [Main](yarmuxametov.github.io/site_main/src/ "Верстка главной страницы ")
