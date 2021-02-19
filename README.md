@@ -13,3 +13,5 @@
 Верстка главной страницы [Main](yarmuxametov.github.io/site_main/src/ "Верстка главной страницы ")
 
 Адаптивность главной страницы [Adaptive](yarmuxametov.github.io/adaptive/src/ "Адаптивность главной страницы ")
+
+Верстка секции с преимуществами [Slider](yarmuxametov.github.io/slider/src/ "Верстка секции с преимуществами ")
