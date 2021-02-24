@@ -15,3 +15,5 @@
 Адаптивность главной страницы [Adaptive](yarmuxametov.github.io/adaptive/src/ "Адаптивность главной страницы ")
 
 Верстка секции с преимуществами [Slider](yarmuxametov.github.io/slider/src/ "Верстка секции с преимуществами ")
+
+Верстка всплывающего окна [Modal-window "Consultation"](yarmuxametov.github.io/modal-window/src/ "Верстка всплывающего окна ")
