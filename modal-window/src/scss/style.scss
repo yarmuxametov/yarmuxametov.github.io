@@ -1,0 +1,424 @@
+/* Fonts settings */
+@font-face {
+    font-family: 'ProximaNova_bold';
+    src: url('../fonts/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff'),
+        url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ProximaNova_reg';
+    src: url('../fonts/ProximaNovaCond-Regular.eot');
+    src: url('../fonts/ProximaNovaCond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaCond-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaCond-Regular.woff') format('woff'),
+        url('../fonts/ProximaNovaCond-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNovaCond-Regular.svg#ProximaNovaCond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@mixin reg {
+  font-family: 'ProximaNova_reg';
+}
+
+@mixin bold {
+  font-family: 'ProximaNova_bold';
+}
+
+
+
+/* Colors */
+@btn-color: #fdb303;
+@icon-color: #49bf15;
+@bg-color: #f5f5f5;
+@text: #292929;
+@danger: #ff0000;
+@border-input: #dddddd;
+
+
+
+/* Basic settings */
+
+body {
+	@include reg
+}
+
+html {
+	font-style: 10px;
+}
+a:hover {
+	text-decoration: none;
+}
+button, input, a {
+	button, input, a:focus {
+		outline: none;
+	}
+} 
+.button {
+	font-size: 1.2rem;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	text-transform: uppercase;
+	border:none;
+	background-color: #fdb303;
+	color: white;
+	transition: all 0.2s;
+}
+.button:hover {
+	cursor: pointer;
+	background: darken(#fdb303, 5%);
+}
+
+/* Typography */
+section {
+	padding: 10rem 0;
+}
+
+
+/* main */
+.main {
+	padding: 2rem  5rem;
+	background-image: url(../img/font1.jpg);
+	background-repeat:no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	@include bold;
+	.main-content {
+		margin-top: 10rem;
+		
+		/* Главный заголовок */
+		h1{
+			margin-top: 0;
+			line-height: 6rem;
+			@include bold;
+			font-size: 4rem;
+			text-transform: uppercase;
+		}
+	}
+	/* Подзаголовок */
+	.main-subtitle {
+		margin-top: 5.8rem;
+		font-size: 2.4rem;
+	}
+	/* Стоимость (зеленый ярлык) */
+	span {
+		text-align: center;
+		margin-top: 3.5rem;
+		display: inline-block;
+		padding: 2.5rem 5.5rem;
+		background-color: #49bf15;
+		color: white;
+		strong  {
+			font-size: 3rem;
+		}
+	}
+	/* Оплата по факту */
+	.main-fact {
+		font-size: 2rem;
+		text-transform: uppercase;
+		margin-top: 2.5rem;
+	}
+
+	/* Форма */
+	.main-form {
+		border: 1px solid #dddddd;
+		text-align: center;
+		padding: 5rem 5rem;
+		background-color: white;
+	
+	 .form-header {
+		font-size: 2rem;
+		@include reg;
+		margin-bottom: 4rem;
+	} 
+	/* Поле для ввода */
+	input {
+		margin: 2rem 0;
+		display: block;
+		border: 1px solid #dddddd;
+		width: 100%;
+		height: 5rem;
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+
+	/* Подписис к полям */
+	.main-form-label {
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		padding: 0.5rem;
+		font-size: 1.3rem;
+		background-color: white;
+		}
+
+	/* Кнопка формы */
+	.form-btn {
+		display: block;
+		width: 100%;
+		height: 6.5rem;
+		font-size: 1.5rem;
+		}
+	/* Подпись под кнопкой */
+	small {
+		display: block;
+		margin-top: 1.5rem;
+		}
+	}
+	/* Подпись под формой со * */
+	.star-text {
+		margin-left: 3rem;
+		margin-top: 3.8rem;
+		display: inline-block;
+		text-align: center;
+	}
+}
+.header  {
+	height: 7rem;
+}
+.phone-link {
+	display: inline-block;
+	@include bold;
+	font-weight: 900;
+	font-size: 2rem;
+	height: 7rem;
+	line-height: 7rem;
+	color:#292929;
+}
+.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	.wrap-block {
+	text-align: right;
+	display: table-cell;
+	vertical-align: middle;	
+	}
+}
+
+/* Оформление секции с преимуществами (Слайдер) */
+
+.section-header {
+	margin: 1.5rem 0;
+	@include bold;
+	font-size: 3.6rem;
+	text-align: center;
+	margin-bottom: 13rem;
+}
+
+.features {
+	.features-block {
+		text-align: center;
+	}
+	.features-img 	{
+		height: 6rem;
+	}
+	img 			{
+		display: block;
+		margin: 0 auto;
+	}
+	h3 {
+		font-size: 2rem;
+		@include bold;
+		font-weight: 900;
+		margin-top: 5rem;
+		margin-bottom: 3rem;
+		}
+	p {
+		display: inline-block;
+		width: 80%;
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+}
+.slick-active {
+	outline: none;
+}
+.prev {
+	top: 50%;
+	transform: scaleY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	background:url(../img/left-arrow.svg) center no-repeat;
+	background-size: 70%;
+	left: 0;
+}
+.next {
+	top: 50%;
+	transform: scaleY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	background:url(../img/right-arrow.svg) center no-repeat;
+	background-size: 70%;
+	right: 0;
+}
+
+/* Оформление модальных окон */
+
+.popup {
+	display: none;
+	@include reg;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	h4 {
+		font-weight: 900;
+		margin-top: -10px;
+	}
+	.popup-close {
+		&:focus {
+			outline: none;
+		}
+		position: absolute;
+		top: -1.5rem;
+		right: -2rem;
+		width: 2rem;
+		text-align: center;
+		border: none;
+		color: white;
+		background-color: transparent;
+		font-size: 3rem;
+	}
+	.popup-content {
+		position: fixed;
+		text-align: center;
+		top: 10%;
+		left: 50%;
+		background-color: white;
+		transform: translateX(-50%);
+		padding: 3rem;
+	}
+	/* Поле для ввода */
+	input {
+		&:focus {
+			outline: none;
+		}
+		margin: 2rem 0;
+		display: block;
+		border: 1px solid #dddddd;
+		width: 100%;
+		height: 5rem;
+		padding: 1.5rem;
+		border-radius: 8px;
+	}
+	textarea {
+		&:focus {
+			outline: none;
+		}
+		margin-bottom: 2rem;
+		width: 100%;
+		border: 1px solid #dddddd;
+		border-radius: 8px;
+	}
+
+	/* Подписис к полям */
+	.main-form-label {
+		position: absolute;
+		display: inline-block;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		padding: 0.5rem;
+		font-weight: 500;
+		font-size: 1.3rem;
+		background-color: white;
+		}
+
+	/* Кнопка формы */
+	.form-btn {
+		display: block;
+		width: 100%;
+		height: 5rem;
+		font-weight: 750;
+		font-size: 1.5rem;
+		}
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+	.main .main-content {
+		margin-top: 3rem;
+	}
+	.main-title  {
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+	.main .star-text {
+		color: white;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		text-align: center;
+		background-position: top left;
+		padding: 1rem  1rem;
+	}
+	.header {
+		text-align: center;
+	}
+	.phone-link {
+		font-weight: 900;
+    	font-size: 1.6rem;
+	}
+	.main .main-content {
+		margin-top: 9rem;
+	}
+	.main .main-content h1 {
+		line-height: 4rem;
+		font-size: 2.5rem;
+	}
+	.main .main-subtitle {
+		margin-top: 0.6rem;
+	}
+	.main .main-form {
+		margin-top: 0.2rem;
+		padding: 2.5rem 2.5rem;
+	}
+	.main .main-form input {
+		margin-right: auto;
+    	margin-left: auto;
+		/* width: 25rem;
+		height: 5rem; */
+		display: center;
+	}
+	.main .main-form .form-btn{
+		margin-right: auto;
+    	margin-left: auto;
+		/* width: 25rem;
+		height: 6rem; */
+	}
+	.main .star-text {
+		display: inline-block;
+		color: #292929;
+		margin-top: 3.8rem;
+	}
+	.section-header {
+		margin-top: -6rem;
+		margin-bottom: 5rem;
+	}
+}
