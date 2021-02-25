@@ -17,3 +17,5 @@
 Верстка секции с преимуществами [Slider](yarmuxametov.github.io/slider/src/ "Верстка секции с преимуществами ")
 
 Верстка всплывающего окна [Modal-window "Consultation"](yarmuxametov.github.io/modal-window/src/ "Верстка всплывающего окна ")
+
+Верстка секции с расценками [Price section](yarmuxametov.github.io/prices/src/ "Верстка секции с расценками ")
