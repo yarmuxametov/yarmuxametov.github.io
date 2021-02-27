@@ -19,3 +19,5 @@
 Верстка всплывающего окна [Modal-window "Consultation"](yarmuxametov.github.io/modal-window/src/ "Верстка всплывающего окна ")
 
 Верстка секции с расценками [Price section](yarmuxametov.github.io/prices/src/ "Верстка секции с расценками ")
+
+Верстка секции с отзывами [Feedback section](yarmuxametov.github.io/feedback/src/ "Верстка секции с отзывами ")
