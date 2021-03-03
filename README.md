@@ -21,3 +21,5 @@
 Верстка секции с расценками [Price section](yarmuxametov.github.io/prices/src/ "Верстка секции с расценками ")
 
 Верстка секции с отзывами [Feedback section](yarmuxametov.github.io/feedback/src/ "Верстка секции с отзывами ")
+
+Верстка секции со схемой работы и "Все включено" [Scheme section](yarmuxametov.github.io/scheme-and-all_inclusive/src/ "Верстка секции со схемой работы и "Все включено" ")
