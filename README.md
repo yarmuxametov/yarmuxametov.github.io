@@ -23,3 +23,5 @@
 Верстка секции с отзывами [Feedback section](yarmuxametov.github.io/feedback/src/ "Верстка секции с отзывами ")
 
 Верстка секции со схемой работы и "Все включено" [Scheme section](yarmuxametov.github.io/scheme-and-all_inclusive/src/ "Верстка секции со схемой работы и "Все включено" ")
+
+Верстка секции "Мы развеем все опасения" [Problems section](yarmuxametov.github.io/problems/src/ "Верстка секции "Мы развеем все опасения"")
