@@ -27,3 +27,6 @@
 Верстка секции "Мы развеем все опасения" [Problems section](yarmuxametov.github.io/problems/src/ "Верстка секции "Мы развеем все опасения"")
 
 Верстка секции "Материалы" [Materials](yarmuxametov.github.io/materials/src/ "Верстка секции "Материалы"")
+
+Верстка секций "Экскурсия и Доп. услуги" [Excursion & Service](yarmuxametov.github.io/excursion_service/src/
+ "Верстка секций "Экскурсия и Доп. услуги"")
