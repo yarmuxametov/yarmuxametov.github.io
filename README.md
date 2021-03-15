@@ -30,3 +30,6 @@
 
 Верстка секций "Экскурсия и Доп. услуги" [Excursion & Service](yarmuxametov.github.io/excursion_service/src/
  "Верстка секций "Экскурсия и Доп. услуги"")
+ 
+Верстка секции "Контакты и Подвал" [Contacts & Footer](yarmuxametov.github.io/contacts_footer/src/
+ "Верстка секции "Контакты и Подвал"") 
