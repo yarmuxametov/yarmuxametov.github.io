@@ -40,4 +40,4 @@
  
 Верстка секций: "Главная", "Услуги", "Преимущества" [Visit site](yarmuxametov.github.io/GSI/src/ "Верстка секций: "Главная", "Услуги", "Преимущества"")
 
-Верстка компьютерной версии сайта [Visit site](yarmuxametov.github.io/GSI-only-computer-version/src/ "Верстка компьютерной версии сайта")
+Верстка компьютерной версии сайта [Visit OOO "GSI"](yarmuxametov.github.io/GSI-only-computer-version/src/ "Верстка компьютерной версии сайта")
