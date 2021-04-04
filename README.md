@@ -38,4 +38,4 @@
  
  САЙТ ДЛЯ ООО "ГАЗСТРОЙИНВЕСТ"
  
-Верстка секций: "Главная", "Услуги", "Преимущества" [Visit site](yarmuxametov.github.io/GSI/src/ "Верстка секций: "Главная", "Услуги", "Преимущества"")
+Верстка сайта ООО "ГСИ" [Visit site](yarmuxametov.github.io/GSI-only-computer-version/src/ "Верстка сайта ООО "ГСИ"")
