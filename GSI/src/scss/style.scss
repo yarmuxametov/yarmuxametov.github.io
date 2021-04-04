@@ -74,6 +74,7 @@
 
 body {
     @include reg;
+    min-width: 374px;
 }
 
 html {
@@ -126,7 +127,8 @@ button, input, a {
         /* Подзаголовок */
         .main-subtitle {
             margin-top: -1.2rem;
-            font-size: 2.4rem;
+            font-size: 2rem;
+            text-transform: uppercase;
             color: white;
         }
         .main-fact {
@@ -290,4 +292,190 @@ button, input, a {
     background:url(../img/right-arrow.png) center no-repeat;
     background-size: 70%;
     right: -50px;
+}
+
+
+/* О компании в цифрах */
+
+.numbers {
+    padding: 1rem 1rem;
+    .section-header {
+    margin: 1.5rem 0;
+    @include bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    }
+    .benefits-element {
+        width: 17rem;
+        height: 10rem;
+        text-align: center;
+        .benefits-icon {
+            width: 5rem;
+            height: 5rem;
+        }
+        .benefits-number {
+            margin-top: 0.5rem;
+            font-size: 3rem;
+            font-weight: 900;
+            color: #00BFFF;
+        }
+        .benefits-title {
+            margin-top: 0.5rem;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+
+        }
+    }
+}
+
+/* Реализованные проекты */
+
+.objects {
+    margin-top: 5rem;
+    padding: 1rem 1rem;
+    background: url(../img/font.png) center no-repeat;
+    background-size: cover;
+    .section-header {
+    margin: 1.5rem 0;
+    @include bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    }
+    .fotorama {
+        margin-left: 4rem;
+    }
+}
+
+/* География работ */
+
+.geography {
+    padding: 1rem 1rem;
+    background: url(../img/font.png) center no-repeat;
+    background-size: cover;
+    .section-header {
+    margin: 1.5rem 0;
+    @include bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    }
+}
+
+/* Контакты */
+
+.contacts {
+    padding: 1rem 1rem;
+    background: url(../img/service/services_font.jpg) center no-repeat;
+    background-size: cover;
+    .section-header {
+    margin: 1.5rem 0;
+    @include bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    }
+    img {
+        margin-bottom: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+        color: black;
+    }
+    a {
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: #00BFFF;
+        border-bottom: 1px dotted #292929;
+    }
+    .copyright {
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 0.7rem;
+        }
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 1199px) {
+    .main {
+        .phone {
+            img {
+                    left: 4rem;
+            }
+        }
+        .email {
+        img {
+                left: 4rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .main {
+        .phone {
+            img {
+                    left: 1rem;
+            }
+        }
+        .email {
+        img {
+                left: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        .header-logo {
+            margin-left: 4rem;
+            margin-bottom: 2rem;
+        }
+        .phone {
+            a {
+                text-align: start;
+                margin-left: 2rem;
+            }
+            img {
+                    left: 1rem;
+            }
+        }
+        .email {
+            a {
+                text-align: start;
+                margin-left: 2rem;
+            }
+        img {
+                left: 1rem;
+            }
+        }
+        .main-title {
+            margin-top: 4rem;
+            margin-left: 2rem;
+            text-align: center;
+            .main-fact {
+                margin-top: 3rem;
+            }
+        }
+        .main-form {
+            margin-top: 2rem;
+        }
+    }
+    .numbers {
+        .section-header {
+            margin-bottom: -5rem;
+        }
+        .benefits-element {
+        width: 100%;
+        margin-top: 7rem;
+        }
+    }
+    .contacts {
+        img {
+            margin-top: -2rem;
+        }
+    }
 }

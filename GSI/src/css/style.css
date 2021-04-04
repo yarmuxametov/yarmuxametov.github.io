@@ -47,7 +47,8 @@
 
 /* Basic settings */
 body {
-  font-family: 'ProximaNova_reg'; }
+  font-family: 'ProximaNova_reg';
+  min-width: 374px; }
 
 html {
   font-style: 10px; }
@@ -86,7 +87,8 @@ button button, button input, button a:focus, input button, input input, input a:
     /* Подзаголовок */ }
     .main .main-title .main-subtitle {
       margin-top: -1.2rem;
-      font-size: 2.4rem;
+      font-size: 2rem;
+      text-transform: uppercase;
       color: white; }
     .main .main-title .main-fact {
       color: #1E90FF;
@@ -231,5 +233,127 @@ button button, button input, button a:focus, input button, input input, input a:
   background: url(../img/right-arrow.png) center no-repeat;
   background-size: 70%;
   right: -50px; }
+
+/* О компании в цифрах */
+.numbers {
+  padding: 1rem 1rem; }
+  .numbers .section-header {
+    margin: 1.5rem 0;
+    font-family: 'ProximaNova_bold';
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem; }
+  .numbers .benefits-element {
+    width: 17rem;
+    height: 10rem;
+    text-align: center; }
+    .numbers .benefits-element .benefits-icon {
+      width: 5rem;
+      height: 5rem; }
+    .numbers .benefits-element .benefits-number {
+      margin-top: 0.5rem;
+      font-size: 3rem;
+      font-weight: 900;
+      color: #00BFFF; }
+    .numbers .benefits-element .benefits-title {
+      margin-top: 0.5rem;
+      text-transform: uppercase;
+      font-size: 1.2rem; }
+
+/* Реализованные проекты */
+.objects {
+  margin-top: 5rem;
+  padding: 1rem 1rem;
+  background: url(../img/font.png) center no-repeat;
+  background-size: cover; }
+  .objects .section-header {
+    margin: 1.5rem 0;
+    font-family: 'ProximaNova_bold';
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem; }
+  .objects .fotorama {
+    margin-left: 4rem; }
+
+/* География работ */
+.geography {
+  padding: 1rem 1rem;
+  background: url(../img/font.png) center no-repeat;
+  background-size: cover; }
+  .geography .section-header {
+    margin: 1.5rem 0;
+    font-family: 'ProximaNova_bold';
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 5rem; }
+
+/* Контакты */
+.contacts {
+  padding: 1rem 1rem;
+  background: url(../img/service/services_font.jpg) center no-repeat;
+  background-size: cover; }
+  .contacts .section-header {
+    margin: 1.5rem 0;
+    font-family: 'ProximaNova_bold';
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2.5rem; }
+  .contacts img {
+    margin-bottom: 2rem; }
+  .contacts p {
+    font-size: 1.5rem;
+    color: black; }
+  .contacts a {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #00BFFF;
+    border-bottom: 1px dotted #292929; }
+  .contacts .copyright {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.7rem; }
+
+/* Медиа-запросы */
+@media (max-width: 1199px) {
+  .main .phone img {
+    left: 4rem; }
+  .main .email img {
+    left: 4rem; } }
+@media (max-width: 991px) {
+  .main .phone img {
+    left: 1rem; }
+  .main .email img {
+    left: 1rem; } }
+@media (max-width: 767px) {
+  .main .header-logo {
+    margin-left: 4rem;
+    margin-bottom: 2rem; }
+  .main .phone a {
+    text-align: start;
+    margin-left: 2rem; }
+  .main .phone img {
+    left: 1rem; }
+  .main .email a {
+    text-align: start;
+    margin-left: 2rem; }
+  .main .email img {
+    left: 1rem; }
+  .main .main-title {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    text-align: center; }
+    .main .main-title .main-fact {
+      margin-top: 3rem; }
+  .main .main-form {
+    margin-top: 2rem; }
+
+  .numbers .section-header {
+    margin-bottom: -5rem; }
+  .numbers .benefits-element {
+    width: 100%;
+    margin-top: 7rem; }
+
+  .contacts img {
+    margin-top: -2rem; } }
 
 /*# sourceMappingURL=style.css.map */
