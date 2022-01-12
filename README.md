@@ -1,6 +1,6 @@
 # Ярмухаметов Артур
 
-[Я в ВК](https://vk.com/mutnobrat "ВК")
+[Я в ВК](https://vk.com/artuurr_ya "ВК")
 
 [Я в Instagram](https://www.instagram.com/_artuurr__/ "Instagram")
 
