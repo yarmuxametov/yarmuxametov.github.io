@@ -15,5 +15,5 @@
  
  САЙТ ДЛЯ ООО "ГАЗСТРОЙИНВЕСТ"
  
-Верстка сайта ООО "ГазСтройИнвест" [Visit site](yarmuxametov.github.io/GSI-only-computer-version/src/)
+Верстка сайта ООО "ГазСтройИнвест" [Visit site](yarmuxametov.github.io/GSI-only-computer-version/src/index.html)
 
